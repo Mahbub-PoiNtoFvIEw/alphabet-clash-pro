@@ -89,22 +89,23 @@
                 <button class="btn rounded-full bg-purple-500 text-white px-6">
                     Life
                     <i class="fa-solid fa-heart"></i>
-                    <span>1</span>
+                    <span id="life">5</span>
                   </button>
                 <button class="btn rounded-full bg-purple-500 text-white px-6">
                     Score
                     <i class="fa-solid fa-dollar-sign"></i>
-                    <span>1</span>
+                    <span id="score">0</span>
                   </button>
                </div>
         </div>
       </section>
       <!-- PlayGround end -->
        <!-- score start -->
-      <section class="score hidden flex justify-center items-center min-h-screen">
+      <section id="final-score" class="score hidden flex justify-center items-center min-h-screen">
         <div class="text-white text-center space-y-6 bg-[#FFFFFF33] p-4 rounded-lg">
-            <h1 class="text-6xl">Score : <span class="font-extrabold">10</span></h1>
-            <button class="btn">Play Again</button>
+          <h4 class="text-3xl">Game Over !</h4>  
+          <h1 class="text-6xl">Score : <span id="game-score" class="font-extrabold">10</span></h1>
+            <button onclick="play()" class="btn">Play Again</button>
             <p>Practice will make you a pro</p>
         </div>
       </section>
